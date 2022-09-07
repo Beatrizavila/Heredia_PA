@@ -24,3 +24,5 @@ export default () => {
     </NavigationContainer>
   )
 }
+
+//falta instalar "react-native-gesture-handler": "~2.5.0", package.json
