@@ -1,6 +1,8 @@
 # Heredia_PA
 Optativa Programación de apps
 
+export PATH=$PATH:~/.npm-global/bin
+
 expo init “NombreProyecto”
 (cambiar la carpeta del proyecto)
 npm i 

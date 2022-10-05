@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Login from './vistas/login';
-import Signup from './vistas/Signup';
+import Signup from './vistas/signup';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -25,4 +25,3 @@ export default () => {
   )
 }
 
-//falta instalar "react-native-gesture-handler": "~2.5.0", package.json
