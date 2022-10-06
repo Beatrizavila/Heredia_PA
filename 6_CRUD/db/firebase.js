@@ -1,8 +1,10 @@
 import { initializeApp } from 'firebase/app';
-import { getFireStore } from 'firebase/firestore'
+/*import { getFireStore } from '@firebase/app';
+import { getAuth } from '@firebase/auth';*/
+import { getFirestore } from 'firebase/firestore'
 import { getAuth } from 'firebase/auth';
 
-const firebaseConfig = {
+export const firebaseConfig = {
     apiKey: "AIzaSyC1SBcscu_hrUI0jBMUoDqsMqqOHhUJSt8",
     authDomain: "nativebase-60e64.firebaseapp.com",
     projectId: "nativebase-60e64",
@@ -13,5 +15,8 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
+/*const db = initializeApp.getFirestore()
+const db = getFireStore(app);*/
 export { auth }
-export const db = getFireStore();
+/*export { db }*/
+export const db = getFirestore(app);
